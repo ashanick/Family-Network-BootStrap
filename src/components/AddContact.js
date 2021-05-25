@@ -24,7 +24,7 @@ class AddContact extends React.Component {
             <form onSubmit={this.add}>
            <div className="form-group">
                <label >Name</label>
-               <input type="text" class="form-control" 
+               <input type="text" className="form-control" 
                     id="exampleFormControl" 
                     value={this.state.name}
                     onChange={(e)=>this.setState({name: e.target.value})}
@@ -32,7 +32,7 @@ class AddContact extends React.Component {
            </div>
            <div className="form-group">
                <label >Email Address</label>
-               <input type="email" class="form-control" 
+               <input type="email" className ="form-control" 
                     id="exampleFormControl" 
                     value={this.state.email}
                     onChange={(e)=>this.setState({email: e.target.value})}

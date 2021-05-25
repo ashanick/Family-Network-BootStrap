@@ -18,7 +18,7 @@ function App() {
     <Container>
       <Row>
         <Col><AddContact addContactHandler={addContactHandler}/></Col>
-        <Col xs={6}><ContactList contacts={contacts} /></Col>
+        <Col ><ContactList contacts={contacts} /></Col>
       </Row>
     </Container>
     <Footer />

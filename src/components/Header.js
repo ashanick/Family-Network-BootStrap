@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <Container>
         <div style={{justifyContent:'center', color: "blue", height: '100px'}}>   
-            <h1>Family Network #2</h1>
+            <h1>Know Your Lakes -- Bangalore</h1>
         </div>
         </Container>
     )

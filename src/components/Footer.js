@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container} from 'react-bootstrap'
+import { Container, Col, Row} from 'react-bootstrap'
 
 const Footer = () =>{
     return (
@@ -7,6 +7,11 @@ const Footer = () =>{
         <div style={{justifyContent:'center', color: "red", height: '100px', marginTop: "30px"}}>
             <h1> Footer Container here</h1>
         </div>
+        <Row>
+    <Col>Government Efforts</Col>
+    <Col>NGO/Citizen Efforts</Col>
+    <Col>How can we help you?</Col>
+  </Row>
         </Container>
     )
 }
